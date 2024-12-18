@@ -1,0 +1,600 @@
+{
+  "nodes": [
+    {
+      "id": "mirror",
+      "label": "거울",
+      "type": "core_concept",
+      "description": "객관적 시각을 제공하고 자기성찰을 돕는 존재"
+    },
+    {
+      "id": "self_reflection",
+      "label": "자기성찰",
+      "type": "core_concept",
+      "description": "스스로를 객관적으로 바라보고 이해하는 과정"
+    },
+    {
+      "id": "objectivity",
+      "label": "객관성",
+      "type": "attribute",
+      "description": "사물이나 현상을 있는 그대로 보는 태도"
+    },
+    {
+      "id": "subjectivity",
+      "label": "주관성",
+      "type": "attribute",
+      "description": "개인적 관점에서 바라보는 태도"
+    },
+    {
+      "id": "leadership",
+      "label": "리더십",
+      "type": "role",
+      "description": "조직을 이끄는 능력과 자질"
+    },
+    {
+      "id": "power",
+      "label": "권력",
+      "type": "attribute",
+      "description": "영향력을 행사할 수 있는 능력"
+    },
+    {
+      "id": "coaching",
+      "label": "코칭",
+      "type": "action",
+      "description": "성장을 돕는 조력 활동"
+    },
+    {
+      "id": "empathy",
+      "label": "공감",
+      "type": "ability",
+      "description": "타인의 감정과 상황을 이해하는 능력"
+    },
+    {
+      "id": "self_esteem",
+      "label": "자존감",
+      "type": "attribute",
+      "description": "자신에 대한 가치 평가"
+    },
+    {
+      "id": "arrogance",
+      "label": "오만",
+      "type": "attribute",
+      "description": "자신을 과대평가하는 태도"
+    },
+    {
+      "id": "narcissism",
+      "label": "나르시즘",
+      "type": "attribute",
+      "description": "자신을 우상화하고 과대평가하는 성향"
+    },
+    {
+      "id": "balance",
+      "label": "균형",
+      "type": "core_concept",
+      "description": "일과 삶, 성공과 행복 사이의 조화"
+    },
+    {
+      "id": "purpose",
+      "label": "목적의식",
+      "type": "core_concept",
+      "description": "삶의 의미와 방향을 제시하는 가치"
+    },
+    {
+      "id": "communication",
+      "label": "소통",
+      "type": "ability",
+      "description": "의미있는 대화와 교를 나누는 능력"
+    },
+    {
+      "id": "courage",
+      "label": "용기",
+      "type": "attribute",
+      "description": "변화와 도전을 받아들이는 태도"
+    },
+    {
+      "id": "fear",
+      "label": "두려움",
+      "type": "emotion",
+      "description": "새로운 도전과 변화 앞에서 느끼는 감정"
+    },
+    {
+      "id": "growth",
+      "label": "성장",
+      "type": "core_concept",
+      "description": "개인의 발전과 역량 확장 과정"
+    },
+    {
+      "id": "action",
+      "label": "행동",
+      "type": "core_concept",
+      "description": "실제적인 변화를 만드는 실천"
+    },
+    {
+      "id": "comfort_zone",
+      "label": "편안함",
+      "type": "state",
+      "description": "변화나 도전이 없는 안정적 상태"
+    },
+    {
+      "id": "change",
+      "label": "변화",
+      "type": "core_concept",
+      "description": "현재 상태에서 새로운 상태로의 전환"
+    },
+    {
+      "id": "confidence",
+      "label": "자신감",
+      "type": "attribute",
+      "description": "성공에 대한 긍정적 확신과 의지"
+    },
+    {
+      "id": "boasting",
+      "label": "자랑",
+      "type": "behavior",
+      "description": "자신의 성취나 소유를 과시하는 행위"
+    },
+    {
+      "id": "workplace_relationship",
+      "label": "직장관계",
+      "type": "core_concept",
+      "description": "직장 내 동료들과의 관계와 신뢰"
+    },
+    {
+      "id": "humility",
+      "label": "겸손",
+      "type": "attribute",
+      "description": "자신의 성취를 절제하여 표현하는 태도"
+    },
+    {
+      "id": "trust",
+      "label": "신뢰",
+      "type": "core_concept",
+      "description": "타인과의 관계에서 형성되는 믿음"
+    },
+    {
+      "id": "individual_excellence",
+      "label": "개인역량",
+      "type": "attribute",
+      "description": "혼자서 일을 잘하는 능력"
+    },
+    {
+      "id": "leadership_excellence",
+      "label": "리더십역량",
+      "type": "attribute",
+      "description": "다른 사람들이 일을 잘하도록 돕는 능력"
+    },
+    {
+      "id": "empowerment",
+      "label": "임파워먼트",
+      "type": "process",
+      "description": "구성원들에게 권한과 책임을 부여하는 과정"
+    },
+    {
+      "id": "team_growth",
+      "label": "팀성장",
+      "type": "process",
+      "description": "조직 구성원들의 집단적 발전"
+    },
+    {
+      "id": "perspective",
+      "label": "관점",
+      "type": "core_concept",
+      "description": "상황을 바라보는 시각과 태도"
+    },
+    {
+      "id": "synergy",
+      "label": "시너지",
+      "type": "outcome",
+      "description": "협력을 통한 상승효과"
+    },
+    {
+      "id": "experience",
+      "label": "경험",
+      "type": "core_concept",
+      "description": "인생의 총합을 이루는 모든 체험과 그 연결"
+    },
+    {
+      "id": "wealth",
+      "label": "부",
+      "type": "attribute",
+      "description": "물질적 풍요와 재산"
+    },
+    {
+      "id": "time",
+      "label": "시간",
+      "type": "core_concept",
+      "description": "삶의 유한한 자원"
+    },
+    {
+      "id": "health",
+      "label": "건강",
+      "type": "attribute",
+      "description": "신체적, 정신적 웰빙 상태"
+    },
+    {
+      "id": "investment",
+      "label": "투자",
+      "type": "action",
+      "description": "현재와 미래의 가치를 위한 시간과 자원의 투입"
+    },
+    {
+      "id": "life_balance",
+      "label": "삶의균형",
+      "type": "core_concept",
+      "description": "일과 삶의 조화로운 배분"
+    },
+    {
+      "id": "memory",
+      "label": "추억",
+      "type": "outcome",
+      "description": "경험을 통해 만들어진 소중한 기억"
+    },
+    {
+      "id": "inefficiency",
+      "label": "비효율",
+      "type": "attribute",
+      "description": "겉보기에 비효율적으로 보이는 활동이나 특성"
+    },
+    {
+      "id": "innovation",
+      "label": "혁신",
+      "type": "core_concept",
+      "description": "새로운 시도와 실험을 통한 가치 창출"
+    },
+    {
+      "id": "craftsmanship",
+      "label": "손재주",
+      "type": "ability",
+      "description": "손으로 하는 세밀한 작업 능력"
+    },
+    {
+      "id": "short_term_focus",
+      "label": "단기집중",
+      "type": "attribute",
+      "description": "당장의 성과와 효율에 집중하는 태도"
+    },
+    {
+      "id": "experimentation",
+      "label": "실험정신",
+      "type": "attribute",
+      "description": "새로운 시도를 두려워하지 않는 태도"
+    }
+  ],
+  "edges": [
+    {
+      "source": "mirror",
+      "target": "self_reflection",
+      "relation": "enables",
+      "description": "거울은 자기성찰을 가능하게 함"
+    },
+    {
+      "source": "self_reflection",
+      "target": "objectivity",
+      "relation": "requires",
+      "description": "자기성찰은 객관성을 필요로 함"
+    },
+    {
+      "source": "subjectivity",
+      "target": "self_reflection",
+      "relation": "hinders",
+      "description": "주관성은 자기성찰을 방해함"
+    },
+    {
+      "source": "leadership",
+      "target": "self_reflection",
+      "relation": "needs",
+      "description": "리더십은 자기성찰을 필요로 함"
+    },
+    {
+      "source": "power",
+      "target": "objectivity",
+      "relation": "reduces",
+      "description": "권력은 객관성을 감소시킴"
+    },
+    {
+      "source": "power",
+      "target": "empathy",
+      "relation": "weakens",
+      "description": "권력은 공감 능력을 약화시킴"
+    },
+    {
+      "source": "coaching",
+      "target": "self_reflection",
+      "relation": "promotes",
+      "description": "코칭은 자성찰을 촉진함"
+    },
+    {
+      "source": "mirror",
+      "target": "arrogance",
+      "relation": "prevents",
+      "description": "거울은 오만을 방지함"
+    },
+    {
+      "source": "mirror",
+      "target": "self_esteem",
+      "relation": "balances",
+      "description": "거울은 자존감을 균형잡게 함"
+    },
+    {
+      "source": "empathy",
+      "target": "coaching",
+      "relation": "enhances",
+      "description": "공감은 코칭을 향상시킴"
+    },
+    {
+      "source": "narcissism",
+      "target": "leadership",
+      "relation": "threatens",
+      "description": "나르시즘은 리더십을 위협함"
+    },
+    {
+      "source": "balance",
+      "target": "self_reflection",
+      "relation": "supports",
+      "description": "균형은 자기성찰을 지원함"
+    },
+    {
+      "source": "purpose",
+      "target": "leadership",
+      "relation": "strengthens",
+      "description": "목적의식은 리더십을 강화함"
+    },
+    {
+      "source": "communication",
+      "target": "leadership",
+      "relation": "essential_for",
+      "description": "소통은 리더십에 필수임"
+    },
+    {
+      "source": "courage",
+      "target": "self_reflection",
+      "relation": "enables",
+      "description": "용기는 자기성찰을 가능하게 함"
+    },
+    {
+      "source": "fear",
+      "target": "growth",
+      "relation": "signals",
+      "description": "두려움은 성장의 신호가 됨"
+    },
+    {
+      "source": "comfort_zone",
+      "target": "growth",
+      "relation": "hinders",
+      "description": "편안함은 성장을 방해함"
+    },
+    {
+      "source": "fear",
+      "target": "action",
+      "relation": "can_paralyze",
+      "description": "두려움은 행동을 마비시킬 수 있음"
+    },
+    {
+      "source": "action",
+      "target": "fear",
+      "relation": "overcomes",
+      "description": "행동은 두려움을 극복함"
+    },
+    {
+      "source": "change",
+      "target": "fear",
+      "relation": "triggers",
+      "description": "변화는 두려움을 유발함"
+    },
+    {
+      "source": "courage",
+      "target": "fear",
+      "relation": "confronts",
+      "description": "용기는 두려움에 맞섬"
+    },
+    {
+      "source": "action",
+      "target": "growth",
+      "relation": "leads_to",
+      "description": "행동은 성장으로 이어짐"
+    },
+    {
+      "source": "change",
+      "target": "growth",
+      "relation": "enables",
+      "description": "변화는 성장을 가능하게 함"
+    },
+    {
+      "source": "confidence",
+      "target": "leadership",
+      "relation": "enhances",
+      "description": "자신감은 리더십을 강화함"
+    },
+    {
+      "source": "boasting",
+      "target": "workplace_relationship",
+      "relation": "damages",
+      "description": "자랑은 직장 관계를 해침"
+    },
+    {
+      "source": "humility",
+      "target": "trust",
+      "relation": "builds",
+      "description": "겸손은 신뢰를 쌓음"
+    },
+    {
+      "source": "confidence",
+      "target": "boasting",
+      "relation": "differs_from",
+      "description": "자신감은 자랑과 다른 특성"
+    },
+    {
+      "source": "trust",
+      "target": "workplace_relationship",
+      "relation": "strengthens",
+      "description": "신뢰는 직장 관계를 강화함"
+    },
+    {
+      "source": "confidence",
+      "target": "action",
+      "relation": "motivates",
+      "description": "자신감은 행동을 동기부여함"
+    },
+    {
+      "source": "humility",
+      "target": "arrogance",
+      "relation": "counters",
+      "description": "겸손은 오만을 견제함"
+    },
+    {
+      "source": "boasting",
+      "target": "trust",
+      "relation": "reduces",
+      "description": "자랑은 신뢰를 감소시킴"
+    },
+    {
+      "source": "individual_excellence",
+      "target": "leadership_excellence",
+      "relation": "differs_from",
+      "description": "개인역량과 리더십역량은 다른 특성"
+    },
+    {
+      "source": "leadership_excellence",
+      "target": "empowerment",
+      "relation": "enables",
+      "description": "리더십역량은 임파워먼트를 가능하게 함"
+    },
+    {
+      "source": "empowerment",
+      "target": "team_growth",
+      "relation": "leads_to",
+      "description": "임파워먼트는 팀성장으로 이어짐"
+    },
+    {
+      "source": "perspective",
+      "target": "leadership_excellence",
+      "relation": "influences",
+      "description": "관점이 리더십역량에 영향을 미침"
+    },
+    {
+      "source": "individual_excellence",
+      "target": "synergy",
+      "relation": "can_contribute",
+      "description": "개인역량이 시너지에 기여할 수 있음"
+    },
+    {
+      "source": "team_growth",
+      "target": "synergy",
+      "relation": "creates",
+      "description": "팀성장이 시너지를 만듦"
+    },
+    {
+      "source": "trust",
+      "target": "leadership_excellence",
+      "relation": "essential_for",
+      "description": "신뢰는 리더십역량에 필수적"
+    },
+    {
+      "source": "leadership_excellence",
+      "target": "growth",
+      "relation": "facilitates",
+      "description": "리더십역량은 성장을 촉진함"
+    },
+    {
+      "source": "experience",
+      "target": "memory",
+      "relation": "creates",
+      "description": "경험은 추억을 만든다"
+    },
+    {
+      "source": "wealth",
+      "target": "experience",
+      "relation": "enables",
+      "description": "부는 경험을 가능하게 한다"
+    },
+    {
+      "source": "time",
+      "target": "experience",
+      "relation": "limits",
+      "description": "시간은 경험을 제한한다"
+    },
+    {
+      "source": "health",
+      "target": "experience",
+      "relation": "enables",
+      "description": "건강은 경험을 가능하게 한다"
+    },
+    {
+      "source": "investment",
+      "target": "experience",
+      "relation": "facilitates",
+      "description": "투자는 경험을 촉진한다"
+    },
+    {
+      "source": "life_balance",
+      "target": "experience",
+      "relation": "optimizes",
+      "description": "삶의 균형은 경험을 최적화한다"
+    },
+    {
+      "source": "experience",
+      "target": "growth",
+      "relation": "leads_to",
+      "description": "경험은 성장으로 이어진다"
+    },
+    {
+      "source": "wealth",
+      "target": "purpose",
+      "relation": "should_not_be",
+      "description": "부는 목적이 되어서는 안된다"
+    },
+    {
+      "source": "time",
+      "target": "health",
+      "relation": "affects",
+      "description": "시간은 건강에 영향을 준다"
+    },
+    {
+      "source": "inefficiency",
+      "target": "innovation",
+      "relation": "enables",
+      "description": "비효율은 혁신을 가능하게 한다"
+    },
+    {
+      "source": "craftsmanship",
+      "target": "individual_excellence",
+      "relation": "enhances",
+      "description": "손재주는 개인역량을 향상시킨다"
+    },
+    {
+      "source": "short_term_focus",
+      "target": "innovation",
+      "relation": "hinders",
+      "description": "단기집중은 혁신을 방해한다"
+    },
+    {
+      "source": "investment",
+      "target": "growth",
+      "relation": "leads_to",
+      "description": "투자는 성장으로 이어진다"
+    },
+    {
+      "source": "experimentation",
+      "target": "innovation",
+      "relation": "essential_for",
+      "description": "실험정신은 혁신에 필수적이다"
+    },
+    {
+      "source": "experience",
+      "target": "innovation",
+      "relation": "enables",
+      "description": "다양한 경험은 혁신을 가능하게 한다"
+    },
+    {
+      "source": "inefficiency",
+      "target": "experimentation",
+      "relation": "allows",
+      "description": "비효율은 실험을 가능하게 한다"
+    },
+    {
+      "source": "short_term_focus",
+      "target": "investment",
+      "relation": "conflicts_with",
+      "description": "단기집중은 장기 투자와 충돌한다"
+    }
+  ]
+}

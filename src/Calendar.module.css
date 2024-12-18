@@ -1,0 +1,53 @@
+.headerContainer {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.dateHeader {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  max-height: 100px;
+  overflow-y: auto;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.taskItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.checkbox {
+  margin-right: 8px;
+}
+
+.completedTask {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.taskEvent {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 12px;
+}
+
+.timeEvent {
+  background-color: #3174ad;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 5px;
+}
+
+.rbc-event {
+  transition: background-color 1s ease !important;
+} 

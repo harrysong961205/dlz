@@ -1,0 +1,107 @@
+@prefix : <http://example.org/knowledge_management#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:개인생산성 a owl:Class ;
+    rdfs:label "개인 생산성"@ko .
+
+:지식관리시스템 a owl:Class ;
+    rdfs:label "지식 관리 시스템"@ko .
+
+:메모방법론 a owl:Class ;
+    rdfs:label "메모 방법론"@ko .
+
+:세컨드브레인 a owl:Class ;
+    rdfs:subClassOf :개인생산성, :지식관리시스템 ;
+    rdfs:label "세컨드 브레인"@ko .
+
+:개인지식관리 a owl:Class ;
+    rdfs:subClassOf :지식관리시스템, :세컨드브레인 ;
+    rdfs:label "개인 지식 관리"@ko .
+
+:정보의소화 a owl:Class ;
+    rdfs:subClassOf :세컨드브레인 ;
+    rdfs:label "정보의 소화"@ko .
+
+:지식의정리 a owl:Class ;
+    rdfs:subClassOf :세컨드브레인 ;
+    rdfs:label "지식의 정리"@ko .
+
+:지식의연결 a owl:Class ;
+    rdfs:subClassOf :세컨드브레인 ;
+    rdfs:label "지식의 연결"@ko .
+
+:제텔카스텐 a owl:Class ;
+    rdfs:subClassOf :지식의연결 ;
+    rdfs:label "제텔카스텐"@ko .
+
+:네트워크노트앱 a owl:Class ;
+    rdfs:subClassOf :지식의정리 ;
+    rdfs:label "네트워크 노트앱"@ko .
+
+:롬리서치 a owl:Class ;
+    rdfs:subClassOf :네트워크노트앱 ;
+    rdfs:label "롬리서치"@ko .
+
+:옵시디언 a owl:Class ;
+    rdfs:subClassOf :네트워크노트앱 ;
+    rdfs:label "옵시디언"@ko .
+
+:로그시크 a owl:Class ;
+    rdfs:subClassOf :네트워크노트앱 ;
+    rdfs:label "로그시크"@ko .
+
+:헵타베이스 a owl:Class ;
+    rdfs:subClassOf :네트워크노트앱 ;
+    rdfs:label "헵타베이스"@ko .
+
+:리드와이즈 a owl:Class ;
+    rdfs:subClassOf :네트워크노트앱 ;
+    rdfs:label "리드와이즈"@ko .
+
+:조테로 a owl:Class ;
+    rdfs:subClassOf :네트워크노트앱 ;
+    rdfs:label "조테로"@ko .
+
+:티아고포르테 a owl:Class ;
+    rdfs:label "티아고 포르테"@ko .
+
+:니클라스루만 a owl:Class ;
+    rdfs:label "니클라스 루만"@ko .
+
+:아이디어머신 a owl:Class ;
+    rdfs:subClassOf :메모방법론 ;
+    rdfs:label "아이디어 머신"@ko .
+
+:MoC a owl:Class ;
+    rdfs:subClassOf :메모방법론 ;
+    rdfs:label "MoC (Map of Contents)"@ko .
+
+:에버그린노트 a owl:Class ;
+    rdfs:subClassOf :메모방법론 ;
+    rdfs:label "에버그린 노트"@ko .
+
+:developed a owl:ObjectProperty ;
+    rdfs:domain :티아고포르테 ;
+    rdfs:range :세컨드브레인 ;
+    rdfs:label "개발"@ko .
+
+:founded a owl:ObjectProperty ;
+    rdfs:domain :니클라스루만 ;
+    rdfs:range :제텔카스텐 ;
+    rdfs:label "창시"@ko .
+
+:hasComponent a owl:ObjectProperty ;
+    rdfs:domain :세컨드브레인 ;
+    rdfs:range :정보의소화, :지식의정리, :지식의연결 ;
+    rdfs:label "구성 요소"@ko .
+
+:hasFeature a owl:DatatypeProperty ;
+    rdfs:domain :네트워크노트앱 ;
+    rdfs:range rdfs:Literal ;
+    rdfs:label "기능"@ko .
+
+:hasTechnique a owl:ObjectProperty ;
+    rdfs:domain :메모방법론 ;
+    rdfs:range :메모방법론 ;
+    rdfs:label "기술"@ko .

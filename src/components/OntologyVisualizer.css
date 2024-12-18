@@ -1,0 +1,133 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 380px;
+  height: 100%;
+  background: #444;
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  overflow-y: auto;
+  animation: slideIn 0.3s ease;
+  border-left: 4px solid #2196f3;
+  z-index: 1000;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #2196f3;
+}
+
+.sidebar-header h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1976d2;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.sidebar-header h3::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 24px;
+  background: #2196f3;
+  border-radius: 3px;
+}
+
+.close-button {
+  background: #f5f5f5;
+  border: 2px solid #e0e0e0;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+  padding: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  margin-left: 15px;
+}
+
+.close-button:hover {
+  background: #2196f3;
+  color: white;
+  border-color: #1976d2;
+  transform: rotate(90deg);
+}
+
+.sidebar-content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid #e3f2fd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-content p {
+  margin: 0;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  border-left: 4px solid #90caf9;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* 스크롤바 스타일링 */
+.sidebar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #2196f3;
+  border-radius: 5px;
+  border: 2px solid #f5f5f5;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #1976d2;
+}
+
+/* 텍스트 선택 스타일 */
+.sidebar ::selection {
+  background: #2196f3;
+  color: white;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    max-width: 380px;
+  }
+} 

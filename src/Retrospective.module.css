@@ -1,0 +1,147 @@
+.container {
+  height: calc(100vh - 200px);
+  padding: 20px;
+}
+
+.startScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.startButton {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.startButton:hover {
+  background-color: #0056b3;
+}
+
+.chatContainer {
+  display: flex;
+  height: 100%;
+  gap: 20px;
+}
+
+.characterSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.character {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.characterGif {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.chatSection {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid #dee2e6;
+  overflow: hidden;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  max-width: 80%;
+  margin: 8px 0;
+}
+
+.assistantMessage {
+  display: flex;
+  gap: 12px;
+  align-self: flex-start;
+}
+
+.userMessage {
+  align-self: flex-end;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-left: auto;
+}
+
+.assistantAvatar {
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.messageContent {
+  padding: 12px 16px;
+  border-radius: 12px;
+  background-color: #f8f9fa;
+}
+
+.userMessage .messageContent {
+  background-color: #007bff;
+  color: white;
+}
+
+.inputSection {
+  padding: 20px;
+  border-top: 1px solid #dee2e6;
+  display: flex;
+  gap: 12px;
+}
+
+.input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.sendButton {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sendButton:hover {
+  background-color: #0056b3;
+}
