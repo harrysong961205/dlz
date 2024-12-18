@@ -13,7 +13,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/home" element={<MapPage />} />
           <Route path="/calendar" element={<CalendarComponent />} />
           <Route path="/visualize-ontology" element={<OntologyVisualizer />} />
           <Route path="/map" element={<MapPage />} />
