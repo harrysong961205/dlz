@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/" element={<MapPage />} />
           <Route path="/home" element={<MapPage />} />
           <Route path="/calendar" element={<CalendarComponent />} />
           <Route path="/visualize-ontology" element={<OntologyVisualizer />} />
